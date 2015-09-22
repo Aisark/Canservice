@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <!--Esto aqui es materialize Css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+        <title>Bienvenida a Canservice</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+       <!--Fondo-->
+        <div class="section no-pad-bot card-panel red accent-1" id="index-banner">
+            <div class="container">
+                <br><br>
+                <!--Titulos-->
+                <h3 class="header center white-text">Bienvenida</h3>
+                <h1 class="header center white-text">Canservice</h1>
+                <!--Botones-->
+                <div class="row center">
+                    <a href="{% url 'registro' %}" id="download-button" class="btn-large waves-effect waves-light red lighten-5"><spam class="blue-text text-accent-1">Iniciar sesion</spam></a>
+                    <a href="{% url 'registro' %}" id="download-button" class="btn-large waves-effect waves-light red lighten-5"><spam class="blue-text text-accent-1">Registrarse</spam></a>
+                </div>
+                <br>
+                <!--Descripcion-->
+                <div class="row center">
+                    <h5 class="header col s12 light">Aplicación para el control y seguimiento del Cáncer Cervicouterino</h5>
+                </div>
+                <br><br><br><br><br>
+            </div>
+        </div>
+    </body>
+</html>
